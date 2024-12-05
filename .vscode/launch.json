@@ -1,0 +1,101 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Outer",
+      "request": "launch",
+      "mainClass": "Outer",
+      "projectName": "Programings_dd0e9039"
+    },
+    {
+      "type": "java",
+      "name": "AccountDanger",
+      "request": "launch",
+      "mainClass": "AccountDanger",
+      "projectName": "Programings_dd0e9039"
+    },
+    {
+      "type": "java",
+      "name": "CarMap",
+      "request": "launch",
+      "mainClass": "CarMap",
+      "projectName": "Programings_dd0e9039"
+    },
+    {
+      "type": "java",
+      "name": "Fibonacci",
+      "request": "launch",
+      "mainClass": "Fibonacci",
+      "projectName": "Programings_dd0e9039"
+    },
+    {
+      "type": "java",
+      "name": "Main2",
+      "request": "launch",
+      "mainClass": "Main2",
+      "projectName": "Programings_dd0e9039"
+    },
+    {
+      "type": "java",
+      "name": "Account",
+      "request": "launch",
+      "mainClass": "Account",
+      "projectName": "Programings_dd0e9039"
+    },
+    {
+      "type": "java",
+      "name": "Arr",
+      "request": "launch",
+      "mainClass": "Arr",
+      "projectName": "Programings_dd0e9039"
+    },
+    {
+      "type": "java",
+      "name": "Shape",
+      "request": "launch",
+      "mainClass": "Shape",
+      "projectName": "Programings_dd0e9039"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "Test",
+      "projectName": "Programings_dd0e9039"
+    },
+    {
+      "type": "java",
+      "name": "A",
+      "request": "launch",
+      "mainClass": "A",
+      "projectName": "Programings_dd0e9039"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "Programings_dd0e9039"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/user/Documents/Programings",
+      "program": "c:/Users/user/Documents/Programings/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
