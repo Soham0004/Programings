@@ -1,4 +1,4 @@
-class A{
+class SEQUENCE{
     static int x;
     int y;
     static {
@@ -7,12 +7,12 @@ class A{
     {
         System.out.println("In non-static block.");
     }
-    A(){
+    SEQUENCE(){
         System.out.println("In default constructor.");
     }
     public static void main(String[] args){
         System.out.println("In main method.");
-        A a1 = new A();
-        A a2 = new A();
+        SEQUENCE a1 = new SEQUENCE();
+        SEQUENCE a2 = new SEQUENCE();
     }
 }
