@@ -1,25 +1,20 @@
-class MyThread implements Runnable
+class MyThread extends java.lang.Thread
 {
     public void run()
     {
-        for(int i=1;i<=5;i++)
+        for(int i=1;i<=10;i++)
         {
-            System.out.println(Thread.currentThread().getName()+i);
-            Thread.yield();
+            System.out.println(this.getName() + " " + i);
         }
     }
     public static void main(String args[])
     {
-        MyThread mt=new MyThread();
-        MyThread t1=new MyThread(mt);
-        MyThread t2=new MyThread(mt);
-        MyThread t3=new MyThread(mt);
+        MyThread t1=new MyThread();
+        MyThread t2=new MyThread();
+        MyThread t3=new MyThread();
         t1.setName("Red");
         t2.setName("BLUE");
         t3.setName("GREEN");
-        t1.setPriority(8);
-        t2.setPriority(3);
-        t3.setPriority(8);
         t1.start();
         t2.start();
         t3.start();

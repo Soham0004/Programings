@@ -31,5 +31,5 @@ class Outer
         i1.m1();    
         Outer.Inner2 i2 = new Outer.Inner2("Method of Static Inner class is called...");
         i2.m2();
-    }
+    }
 }
