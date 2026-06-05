@@ -1,7 +1,7 @@
 def convert_rupees(rupees):
-    pound_rate = 98.73
-    dollar_rate = 82.36
-    euro_rate = 88.23
+    pound_rate = 119.00
+    dollar_rate = 88.01
+    euro_rate = 103.32
     pounds = rupees / pound_rate
     dollars = rupees / dollar_rate
     euros = rupees / euro_rate
